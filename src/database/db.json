@@ -1,0 +1,34 @@
+{
+  "Flight": [
+    {
+      "name": "veer",
+      "age": 23,
+      "aadharno": "123245568 ",
+      "chechin": "30-12-25",
+      "chechout": "05-01-26",
+      "city": "bhopal",
+      "person": "4",
+      "id": "0ddd"
+    },
+    {
+      "name": "sandeep",
+      "age": 22,
+      "aadharno": "123245567",
+      "chechin": "30-12-25",
+      "chechout": "02-01-26",
+      "city": "indore",
+      "person": "3",
+      "id": "0ddd"
+    },
+    {
+      "name": "anil",
+      "age": 24,
+      "aadharno": "123245569",
+      "chechin": "30-12-25",
+      "chechout": "02-01-26",
+      "city": "singrauli",
+      "person": "3",
+      "id": "0ddd"
+    }
+  ]
+}

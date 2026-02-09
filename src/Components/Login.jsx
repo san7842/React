@@ -116,10 +116,10 @@ const Login = () => {
       </video>
 
       {/* 🌑 Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 "></div>
 
       {/* 🔐 Login Form */}
-      <div className="relative z-10 min-h-screen flex items-center justify-center px-4">
+      <div className="relative z-10  min-h-screen flex items-center justify-center px-4">
         <form
           onSubmit={handleSubmit}
           className="bg-transparent backdrop-blur-lg p-8 rounded-2xl shadow-2xl w-full max-w-md"

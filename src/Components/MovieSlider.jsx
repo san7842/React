@@ -12,7 +12,7 @@ const movies = [
   { id: 9,  image: '/movies/9.jpg' },
 ];
 
-export default function MovieSlider() {
+ const MovieSlider=()=> {
   const sliderRef = useRef(null);
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
@@ -44,6 +44,8 @@ export default function MovieSlider() {
 
   return (
     <div className="w-full">
+
+      
       <div
         ref={sliderRef}
         onTouchStart={onTouchStart}
@@ -118,3 +120,4 @@ export default function MovieSlider() {
     </div>
   );
 }
+export default MovieSlider;

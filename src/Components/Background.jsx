@@ -17,7 +17,7 @@ const Background = () => {
       </video>
 
       {/* 🖤 Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      {/* <div className="absolute inset-0 bg-black/60"></div> */}
 
       {/* 🌟 Content On Top */}
       <div className="relative z-10 text-white p-8 flex flex-col items-center justify-center h-full">
@@ -26,7 +26,7 @@ const Background = () => {
         </h1>
         <div className="w-full mt-2 mb-6">
           <p className="font-bold text-white text-lg text-center">
-            This is movies home
+            This is movies Home
           </p>
         </div>
       </div>
